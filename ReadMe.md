@@ -1,8 +1,8 @@
 # How to install code styles tools
 
 ## Table of content
-* [Configuration Checkstyle for IntelliJ IDEA](Configuration_Checkstyle_for_IntelliJ_IDEA)
-* [Configuration Code Style for IntelliJ IDEA](Configuration_Code_Style_for_IntelliJ_IDEA)
+* [Configuration Checkstyle for IntelliJ IDEA](#configuration-checkstyle-for-intellij-idea)
+* [Configuration Code Style for IntelliJ IDEA](#configuration-code-style-for-intellij-idea)
 
 ## Configuration Checkstyle for IntelliJ IDEA
 We will use the following config: https://raw.githubusercontent.com/khda91/leveup-code-checkers-configurations/main/checkstyle/checkstyle.xml. 
