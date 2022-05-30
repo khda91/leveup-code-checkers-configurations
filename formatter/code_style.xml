@@ -89,15 +89,14 @@
     <option name="RELEASE_STYLE" value="IVAR" />
     <option name="TYPE_QUALIFIERS_PLACEMENT" value="BEFORE" />
   </Objective-C-extensions>
-  <Python>
-    <option name="USE_CONTINUATION_INDENT_FOR_ARGUMENTS" value="true" />
-  </Python>
+  <ScalaCodeStyleSettings>
+    <option name="MULTILINE_STRING_CLOSING_QUOTES_ON_NEW_LINE" value="true" />
+  </ScalaCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
     <option name="INDENT_CHAINED_CALLS" value="false" />
   </TypeScriptCodeStyleSettings>
   <XML>
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
   <editorconfig>
     <option name="ENABLED" value="false" />
@@ -107,6 +106,11 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
+    </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="Cookie">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="false" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="ECMA Script Level 4">
@@ -254,15 +258,13 @@
     <option name="RIGHT_MARGIN" value="80" />
   </codeStyleSettings>
   <codeStyleSettings language="Python">
+    <option name="RIGHT_MARGIN" value="80" />
+    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
     <indentOptions>
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
       <option name="TAB_SIZE" value="2" />
     </indentOptions>
-    <option name="RIGHT_MARGIN" value="80" />
-    <option name="ALIGN_MULTILINE_PARAMETERS" value="false" />
-    <option name="PARENT_SETTINGS_INSTALLED" value="true" />
-    <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
   </codeStyleSettings>
   <codeStyleSettings language="SASS">
     <indentOptions>
@@ -605,12 +607,15 @@
       </rules>
     </arrangement>
   </codeStyleSettings>
-  <codeStyleSettings language="protobuf">
+  <codeStyleSettings language="csv">
     <indentOptions>
-      <option name="INDENT_SIZE" value="2" />
-      <option name="CONTINUATION_INDENT_SIZE" value="2" />
-      <option name="TAB_SIZE" value="2" />
+      <option name="USE_TAB_CHARACTER" value="false" />
     </indentOptions>
+  </codeStyleSettings>
+  <codeStyleSettings language="protobuf">
     <option name="RIGHT_MARGIN" value="80" />
+    <indentOptions>
+      <option name="CONTINUATION_INDENT_SIZE" value="2" />
+    </indentOptions>
   </codeStyleSettings>
 </code_scheme>
