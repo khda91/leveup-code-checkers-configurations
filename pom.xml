@@ -38,6 +38,7 @@
                     </configLocation>
                     <encoding>${project.build.sourceEncoding}</encoding>
                     <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    <violationSeverity>warning</violationSeverity>
                     <consoleOutput>true</consoleOutput>
                     <failsOnError>true</failsOnError>
                     <linkXRef>false</linkXRef>
