@@ -365,6 +365,12 @@ ij_groovy_for_brace_force = always
 ij_groovy_for_statement_new_line_after_left_paren = false
 ij_groovy_for_statement_right_paren_on_new_line = false
 ij_groovy_for_statement_wrap = normal
+ij_groovy_ginq_general_clause_wrap_policy = 2
+ij_groovy_ginq_having_wrap_policy = 1
+ij_groovy_ginq_indent_having_clause = true
+ij_groovy_ginq_indent_on_clause = true
+ij_groovy_ginq_on_wrap_policy = 1
+ij_groovy_ginq_space_after_keyword = true
 ij_groovy_if_brace_force = always
 ij_groovy_import_annotation_wrap = 2
 ij_groovy_imports_layout = |,$*,|,*
@@ -495,12 +501,16 @@ ij_groovy_wrap_chain_calls_after_dot = false
 ij_groovy_wrap_long_lines = false
 
 [{*.har,*.jsb2,*.jsb3,*.json,.babelrc,.eslintrc,.stylelintrc,bowerrc,jest.config}]
+ij_json_array_wrapping = split_into_lines
 ij_json_keep_blank_lines_in_code = 0
 ij_json_keep_indents_on_empty_lines = false
 ij_json_keep_line_breaks = true
+ij_json_keep_trailing_comma = false
+ij_json_object_wrapping = split_into_lines
+ij_json_property_alignment = do_not_align
 ij_json_space_after_colon = true
 ij_json_space_after_comma = true
-ij_json_space_before_colon = true
+ij_json_space_before_colon = false
 ij_json_space_before_comma = false
 ij_json_spaces_within_braces = false
 ij_json_spaces_within_brackets = false
@@ -529,7 +539,8 @@ ij_properties_keep_blank_lines = false
 ij_properties_key_value_delimiter = equals
 ij_properties_spaces_around_key_value_delimiter = false
 
-[{*.qute.html,*.qute.json,*.qute.txt,*.qute.yaml,*.qute.yml}]
+[{*.qute.htm,*.qute.html,*.qute.json,*.qute.txt,*.qute.yaml,*.qute.yml}]
+ij_continuation_indent_size = 8
 ij_qute_keep_indents_on_empty_lines = false
 
 [{*.yaml,*.yml}]
