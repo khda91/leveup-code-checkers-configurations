@@ -18,6 +18,7 @@
       - update Indentation to 4 space chars
       - update LineLength to 120 chars
       - deleted from WhitespaceAfter.tokens [LITERAL_CASE, LITERAL_YIELD]
+      - changed AbbreviationAsWordInName.allowedAbbreviationLength to 3 from 0
  -->
 
 <module name="Checker">
@@ -263,7 +264,7 @@
         </module>
         <module name="AbbreviationAsWordInName">
             <property name="ignoreFinal" value="false"/>
-            <property name="allowedAbbreviationLength" value="0"/>
+            <property name="allowedAbbreviationLength" value="3"/>
             <property name="tokens"
                 value="CLASS_DEF, INTERFACE_DEF, ENUM_DEF, ANNOTATION_DEF, ANNOTATION_FIELD_DEF,
                     PARAMETER_DEF, VARIABLE_DEF, METHOD_DEF, PATTERN_VARIABLE_DEF, RECORD_DEF,
